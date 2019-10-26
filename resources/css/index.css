@@ -1,0 +1,46 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.title {
+  height: 70vh;
+  background-image: linear-gradient(to bottom right, #031dfc, #7e02ad, #7e02ad);
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 100px;
+}
+
+.heading {
+  color: #eeeeee;
+  font-size: 4rem;
+  margin: 40px 50px;
+  padding: 40px 0;
+  /* display: absolute;
+  top: 0;
+  left: 0; */
+}
+
+.title p {
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+.quote {
+  color: #ffffff;
+  font-size: 3rem;
+  width: 600px;
+}
+
+.display {
+  display: flex;
+  align-items: center;
+  height: 60%;
+}
+
+.left {
+  padding-left: 140px;
+  width: 600px;
+}
+
+.right {
+}
