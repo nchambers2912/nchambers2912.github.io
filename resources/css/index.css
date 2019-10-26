@@ -5,7 +5,7 @@
 
 .title {
   height: 70vh;
-  background-image: linear-gradient(to bottom right, #031dfc, #7e02ad, #7e02ad);
+  background-image: linear-gradient(to bottom right, #031dfc, #7e02ad, #600083);
   border-top-right-radius: 50px;
   border-bottom-left-radius: 100px;
 }
@@ -41,5 +41,3 @@
   padding-left: 140px;
   width: 600px;
 }
-
-
