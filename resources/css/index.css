@@ -7,10 +7,8 @@
 }
 
 .container {
-  max-width: 1400px;
-  min-width: 850px;
-  margin: 0 auto;
   overflow: hidden;
+  background-color: var(--lightgray);
 }
 
 /* CSS Variables */
@@ -26,19 +24,26 @@
 .nav {
   background-color: var(--purple);
   padding-top: 0.6rem;
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
 }
 
 .nav ul {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  margin-right: 0.5rem;
+  display: block;
 }
 
 .nav li {
   text-decoration: none;
   list-style: none;
+  padding: 0.2rem 0.4rem;
+  text-align: center;
+  margin: 0.6rem 1rem;
+  background-color: #8704f3;
+  color: var(--white);
+}
+
+.nav li:hover {
+  background-color: var(--white);
+  color: #6903bf;
 }
 
 .nav a {
@@ -54,26 +59,26 @@
 
 /* Header Section */
 .header {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas:
-    "title icon"
-    "tagline icon";
-  height: 24rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 3rem;
+
+  height: 26rem;
   background-image: linear-gradient(
     160deg,
     var(--purple),
     var(--purple),
     var(--blue)
   );
-  border-bottom-left-radius: 0.3rem;
+  overflow: hidden;
 
   position: relative;
-  width: 110%;
+  width: 115%;
   top: -2rem;
-  left: -0.6%;
-  transform: rotate(-2deg);
-  margin-bottom: 8rem;
+  left: -8%;
+  transform: rotate(-4deg);
+  margin-bottom: 1rem;
 }
 
 .title {
@@ -81,9 +86,9 @@
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
-  padding: 0 0 0 4rem;
+  padding: 4rem 0 0 4rem;
   color: var(--white);
-  transform: rotate(2deg);
+  transform: rotate(4deg);
   font-size: 6rem;
 }
 
@@ -94,77 +99,139 @@
   align-items: flex-start;
   padding: 0 0 0 4rem;
   color: #dddddd;
-  transform: rotate(2deg);
+  transform: rotate(4deg);
   font-size: 1.3rem;
 }
 
+.logo {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  background-image: url("../../resources/images/logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.8;
+  transform: rotate(4deg);
+}
+
 .icon {
-  grid-area: icon;
-  display: flex;
-  justify-content: left;
-  align-items: left;
-  padding-right: 4rem;
-  width: auto;
-  height: 110%;
-  transform: rotate(2deg);
-  object-fit: cover;
   position: relative;
-  left: -3.5rem;
+  width: 100%;
+  margin: auto 0 auto 3rem;
 }
 
 /* Discipline Section */
 .disciplines {
-  display: grid;
-  grid-template-columns: 100%;
-  justify-content: center;
-  gap: 1rem;
-  margin: 0 1rem;
+}
+
+.cards {
+  list-style: none;
+}
+
+.card {
+  margin: 0rem 0.7rem 2rem 0.7rem;
+  border: 0.001rem solid var(--dark);
 }
 
 .discipline {
-  padding: 0 2rem 0 0;
-  display: grid;
-  grid-template-columns: repeat(2, 50%);
-  grid-template-areas:
-    "icon title"
-    "icon tagline";
-  height: 20rem;
-  border: 1px solid var(--purple);
+  background-color: var(--white);
 }
 
 /* .discipline:hover {
 
 } */
 
-.discipline i {
-  grid-area: icon;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  line-height: 100%;
-  background-image: linear-gradient(
-    160deg,
-    var(--purple),
-    var(--purple),
-    var(--blue)
-  );
-  color: var(--white);
+.discipline .image {
+  background-image: url(../../resources/images/head.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 20rem;
+  padding: 3rem 2rem;
+}
+
+.card:nth-of-type(1) .image {
+  background-image: url(../../resources/images/compassion.jpg);
+}
+
+.card:nth-of-type(2) .image {
+  background-image: url(../../resources/images/love2.jpg);
+}
+
+.card:nth-of-type(3) .image {
+  background-image: url(../../resources/images/love1.jpg);
 }
 
 .discipline h1 {
-  color: var(--blue);
-  padding-left: 4rem;
+  background-color: var(--purple);
+  color: #fff;
+  padding: 2.5rem 1.5rem 0.75rem 1.5rem;
   font-size: 3rem;
-  grid-area: title;
-  align-self: flex-end;
-  margin-right: 2rem;
 }
 
 .discipline h4 {
-  color: var(--blue);
-  font-size: 0.8rem;
-  align-self: flex-start;
-  grid-area: tagline;
-  margin-right: 2rem;
-  padding-left: 4rem;
+  background-color: var(--purple);
+  color: var(--white);
+  padding: 0 1.5rem 3rem 1.5rem;
+}
+
+/* Footer Section */
+.footer {
+  background-image: linear-gradient(160deg, var(--purple), var(--blue));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+
+.creditsection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer .logos {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  padding: 2rem 1rem 0.3rem 1rem;
+  margin-top: 1rem;
+}
+
+.footerlogo img {
+  height: 4rem;
+  width: 0 auto;
+  margin-bottom: 2rem;
+}
+
+.footer .copyright {
+  font-size: 1rem;
+  color: var(--white);
+  margin: 2rem 4rem;
+}
+
+/* Media Queries */
+@media (max-width: 350px) {
+  .title {
+    font-size: 4rem;
+  }
+
+  .tagline {
+    font-size: 0.8rem;
+    width: 300px;
+  }
+
+  .header {
+    height: 20rem;
+  }
+}
+
+@media (min-width: 900px) {
 }
