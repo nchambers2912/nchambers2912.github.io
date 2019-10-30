@@ -10,6 +10,8 @@
   overflow: hidden;
   background-color: var(--blue);
   min-width: 275px;
+  max-width: 1024px;
+  margin: 0 auto;
 }
 
 /* CSS Variables */
