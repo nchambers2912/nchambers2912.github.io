@@ -108,6 +108,7 @@
 /* Discipline Section */
 .disciplines {
   margin: 2rem auto;
+  padding: 0 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -244,6 +245,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .disciplines {
+    padding: 0;
   }
 }
 
