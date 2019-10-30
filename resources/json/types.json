@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Psychological distress",
+    "description": "There are times when our normal coping strategies leave us feeling confused or angry. Therapy can assist by helping us see a problem from a different perspective.",
+    "image": "resources/images/psychologicaldistress.jpg"
+  },
+  {
+    "title": "Substance Misuse",
+    "description": "Therapy can help motivate you to make changes towards new routines with a short course of Motivational Enhancement Therapy. If you have already made changes and are abstaining from substance misuse then therapy can help you become aware of past history that may have led to the unwanted behaviour.",
+    "image": "resources/images/substancemisuse.jpg"
+  },
+  {
+    "title": "Anxiety",
+    "description": "Anxiety can be crippling on a day to day basis. Therapy can help to reduce the level of threat and fear thereby enabling you to cope a little better.",
+    "image": "resources/images/anxiety.jpg"
+  },
+  {
+    "title": "Young People",
+    "description": "You have mounds to cope with both mentally and physically. At a time when your brain is developing at speed and societal expectations are high, a non-judgemental, confidential space to talk can help.",
+    "image": "resources/images/youngpeople.jpg"
+  },
+  {
+    "title": "Bereavement",
+    "description": "The loss of someone close can be traumatic and confusing. Therapy can support you non-judgementally and sensitively through a dark time.",
+    "image": "resources/images/bereavement.jpg"
+  },
+  {
+    "title": "Stress",
+    "description": "Stress can be unquantifiable and symptoms may have no apparent origin. Therapy may help identify the cause possibly enabling you to think and react in a different way alleviating some or all of the symptoms.",
+    "image": "resources/images/stress.jpg"
+  }
+]

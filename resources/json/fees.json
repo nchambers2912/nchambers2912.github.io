@@ -1,0 +1,31 @@
+{
+  "title": "Session Fees",
+  "description": "Talkfit Counselling Services offer both time-limited and ongoing sessions.",
+  "allergies": "There are two well-behaved dogs on the premises. Please let us know if this may be a problem for you.",
+  "prices": [
+    {
+      "type": "Initial",
+      "number": 1,
+      "time": "50 minutes",
+      "cost": 50.0,
+      "description": "Please note that once a session is booked that this time is exclusively for you. It cannot be shared with anyone else or re-used at short notice. It is for this reason that we ask for 48 hours’ notice for any cancellation or re-scheduling of sessions . Should you not be able to come to an appointment for any reason please let me know at least 48 hours before the session is due. Unattended sessions will be charged at the full rate.",
+      "image": ""
+    },
+    {
+      "type": "Block Booking",
+      "number": 4,
+      "time": "50 minutes",
+      "cost": 180.0,
+      "description": "These sessions cannot be booked without an separate initial session. Block bookings must be paid in advance, any of the 4 sessions may be re-scheduled with 48 hours notice. Payments are taken by cash or bank transfer.",
+      "image": ""
+    },
+    {
+      "type": "Admin Fees",
+      "number": 1,
+      "time": "30 minutes",
+      "cost": 30.0,
+      "description": "Should you require information to be forwarded to another professional body, your consent will be needed in writing and an admin charge will be payable.",
+      "image": ""
+    }
+  ]
+}
