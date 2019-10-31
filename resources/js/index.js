@@ -1,13 +1,15 @@
 var cards = document.querySelector(".cards");
+console.log(cards);
 
 window.addEventListener("load", function() {
   var data = getData();
+  this.console.log(data);
 
-  //   data.forEach(element => {
-  //     var card = buildCard(element.title, element.description, element.image);
-  //     this.console.log(card);
-  //     cards.appendChild(card);
-  //   });
+  data.forEach(element => {
+    var card = buildCard(element.title, element.description, element.image);
+    this.console.log(card);
+    cards.appendChild(card);
+  });
 });
 
 function getData() {
@@ -43,9 +45,6 @@ function buildCard(title, tagline, image) {
 
   var div = document.createElement("div");
   div.classList.add("image");
-  var img = document.createElement("img");
-  img.setAttribute("src", image);
-  div.appendChild(img);
   discipline.appendChild(div);
 
   var theTitle = document.createElement("h1");
