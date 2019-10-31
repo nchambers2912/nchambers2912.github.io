@@ -119,6 +119,7 @@
 .cards {
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   max-width: 1024px;
@@ -128,6 +129,7 @@
   margin: 0rem 0.7rem 2rem 0.7rem;
   border: 0.001rem solid var(--dark);
   min-width: 250px;
+  max-width: 380px;
 }
 
 .discipline {
