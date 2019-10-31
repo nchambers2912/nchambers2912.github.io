@@ -111,8 +111,8 @@
 .hero {
   padding: 2rem 0 1rem 0;
   margin: 2rem 2rem;
-
-  background-color: #0529c9;
+  border: 2px solid darkblue;
+  background-color: #0530ec;
 }
 
 .herotext {
@@ -269,7 +269,7 @@
   }
 
   .disciplines {
-    padding: 0;
+    padding: 2rem 0 0 0;
   }
 
   .title,
@@ -279,8 +279,8 @@
 
   .hero {
     padding: 1rem 0 0.2rem 0;
-    margin: 2rem 1rem;
-    background-color: #0530ec;
+    margin: 2rem 0.66rem;
+    border: 1px solid darkblue;
   }
 
   .herotext {
