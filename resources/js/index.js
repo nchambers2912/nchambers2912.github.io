@@ -45,6 +45,7 @@ function buildCard(title, tagline, image) {
 
   var div = document.createElement("div");
   div.classList.add("image");
+  div.style.backgroundImage = 'url("' + image + '")';
   discipline.appendChild(div);
 
   var theTitle = document.createElement("h1");
