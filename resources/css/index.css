@@ -107,13 +107,30 @@
   width: 0 auto;
 }
 
+/* Hero Section */
+.hero {
+  padding: 2rem 0 1rem 0;
+  margin: 2rem 2rem;
+
+  background-color: #0529c9;
+}
+
+.herotext {
+  margin: 0 4rem;
+  padding: 0 0 1rem 0;
+  font-size: 1.4rem;
+  color: var(--lightgray);
+  line-height: 1.8rem;
+}
+
 /* Discipline Section */
 .disciplines {
   margin: 2rem auto;
-  padding: 0 2rem;
+  padding: 4rem 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: var(--lightgray);
 }
 
 .cards {
@@ -162,7 +179,7 @@
   background-color: #fff;
   color: var(--blue);
   padding: 2.5rem 1.5rem 0.75rem 1.5rem;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .discipline h4 {
@@ -258,5 +275,18 @@
   .title,
   .tagline {
     padding: 0 2rem;
+  }
+
+  .hero {
+    padding: 1rem 0 0.2rem 0;
+    margin: 2rem 1rem;
+    background-color: #0530ec;
+  }
+
+  .herotext {
+    margin: 0 1rem;
+    padding: 0 0 0.8rem 0;
+    font-size: 1rem;
+    line-height: 1.4rem;
   }
 }
