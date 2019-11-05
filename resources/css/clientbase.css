@@ -6,22 +6,37 @@ section {
   padding: 2rem 0;
 }
 
-h1 {
+section h1 {
   font-size: 2rem;
   padding-bottom: 1rem;
   margin: 2rem 4rem;
   color: var(--dark);
 }
 
-h2 {
+section h2 {
   font-size: 1.4rem;
   padding-bottom: 1rem;
   margin: 1rem 4rem;
   color: var(--dark);
 }
 
-p {
+section p {
   font-size: 1rem;
   padding-bottom: 1rem;
   margin: 1rem 4rem;
+}
+
+/* Media queries */
+@media screen and (max-width: 800px) {
+  section h1 {
+    margin: 2rem 1rem;
+  }
+
+  section h2 {
+    margin: 1rem 1rem;
+  }
+
+  section p {
+    margin: 1rem 1rem;
+  }
 }

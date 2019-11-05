@@ -5,6 +5,7 @@ var converter = new showdown.Converter(),
 var content = document.querySelector(".content");
 
 window.addEventListener("load", function() {
+  loadHeaderHtml();
   var html = loadFromMarkdownFile("../../resources/markdown/clientbase.md");
   content.innerHTML = html;
 });
