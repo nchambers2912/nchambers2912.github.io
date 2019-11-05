@@ -1,3 +1,7 @@
+.content {
+  background-color: var(--white);
+}
+
 section {
   padding: 2rem 0;
 }
