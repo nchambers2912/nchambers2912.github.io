@@ -2,15 +2,19 @@ var cards = document.querySelector(".cards");
 console.log(cards);
 
 window.addEventListener("load", function() {
+  loadHeaderHtml();
+  addCardSection();
+});
+
+function addCardSection() {
   var data = getData();
   this.console.log(data);
-
   data.forEach(element => {
     var card = buildCard(element.title, element.description, element.image);
     this.console.log(card);
     cards.appendChild(card);
   });
-});
+}
 
 function getData() {
   var request = new XMLHttpRequest();
