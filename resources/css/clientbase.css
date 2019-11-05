@@ -9,21 +9,21 @@ section {
 section h1 {
   font-size: 2rem;
   padding-bottom: 1rem;
-  margin: 2rem 4rem;
+  margin: 2rem 6rem;
   color: var(--dark);
 }
 
 section h2 {
   font-size: 1.4rem;
   padding-bottom: 1rem;
-  margin: 1rem 4rem;
+  margin: 1rem 6rem;
   color: var(--dark);
 }
 
 section p {
   font-size: 1rem;
   padding-bottom: 1rem;
-  margin: 1rem 4rem;
+  margin: 1rem 6rem;
 }
 
 /* Media queries */
