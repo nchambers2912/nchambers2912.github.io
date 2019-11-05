@@ -1,0 +1,27 @@
+.content {
+  background-color: var(--white);
+}
+
+section {
+  padding: 2rem 0;
+}
+
+h1 {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  margin: 2rem 4rem;
+  color: var(--dark);
+}
+
+h2 {
+  font-size: 1.4rem;
+  padding-bottom: 1rem;
+  margin: 1rem 4rem;
+  color: var(--dark);
+}
+
+p {
+  font-size: 1rem;
+  padding-bottom: 1rem;
+  margin: 1rem 4rem;
+}

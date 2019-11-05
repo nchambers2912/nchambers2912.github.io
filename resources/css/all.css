@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
+
+/* CSS Variables */
+
+:root {
+  --purple: #6903bf;
+  --blue: #0224bf;
+  --white: #eee;
+  --lightgray: #efefef;
+  --dark: #0c1235;
+  --link: #8704f3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.container {
+  overflow: hidden;
+  background-color: var(--blue);
+  min-width: 275px;
+  max-width: 1024px;
+  margin: 0 auto;
+}
