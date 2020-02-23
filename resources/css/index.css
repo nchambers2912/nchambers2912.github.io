@@ -65,9 +65,11 @@
 
 .card {
   margin: 0rem 0.7rem 2rem 0.7rem;
-  border: 0.001rem solid var(--dark);
+  /* border: 0.001rem solid var(--dark); */
   min-width: 250px;
   max-width: 380px;
+  align-self: stretch;
+  background-color: white;
 }
 
 .discipline {
@@ -166,6 +168,11 @@
 
   .cards {
     flex-direction: column;
+  }
+
+  .card {
+    align-self: none;
+    background-color: none;
   }
 
   .footer {
