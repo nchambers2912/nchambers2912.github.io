@@ -1,64 +1,36 @@
-/* nav section .nav {
-  background-color: var(--purple);
-  padding-top: 0.6rem;
-  padding-bottom: 0.6rem;
-}
-
-.nav ul {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.nav li {
-  text-decoration: none;
-  list-style: none;
-  padding: 0.2rem 0.8rem;
-  text-align: center;
-  margin: 0.6rem 1rem;
-  background-color: var(--link);
-  color: var(--white);
-}
-
-.nav a {
-  color: var(--white);
-  text-decoration: none;
-}
-
-.nav a:hover {
-  color: var(--purple);
-  background-color: var(--white);
-} */
-
 .hero {
   padding: 2rem 0 1rem 0;
-  margin: 2rem 2rem;
-  border: 2px solid darkblue;
-  background-color: #0530ec;
+  margin: 0rem 2rem;
+  /* border: 2px solid darkblue; */
+  background-color: var(--blue); /*#0530ec;*/
+  /* box-shadow: 0.2rem 0.2rem 2rem #0b2363, -0.2rem -0.2rem 1rem #7a9eff; */
+  /* border-radius: 1rem; */
 }
 
 .herotext {
   margin: 0 4rem;
   padding: 0 0 1rem 0;
   font-size: 1.4rem;
-  color: var(--lightgray);
-  line-height: 1.8rem;
+  color: var(--dak);
+  line-height: 2rem;
+  border: none;
 }
 
 /* Discipline Section */
 .disciplines {
-  margin: 2rem auto;
-  padding: 4rem 2rem;
+  margin: 1rem auto;
+  padding: 2rem 0rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--lightgray);
+  background-color: white ;
 }
 
 .cards {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   max-width: 1024px;
 }
@@ -67,13 +39,16 @@
   margin: 0rem 0.7rem 2rem 0.7rem;
   /* border: 0.001rem solid var(--dark); */
   min-width: 250px;
-  max-width: 380px;
+  max-width: 300px;
   align-self: stretch;
   background-color: white;
+  box-shadow: 0.2rem 0.2rem 0.5rem var(--lightgray), -0.2rem -0.2rem 0.5rem var(--lightgray);
+  border-radius: 1rem;
+  padding-bottom: 1rem;
 }
 
 .discipline {
-  background-color: var(--blue);
+  background-color: white);
 }
 
 .discipline .image {
@@ -84,6 +59,8 @@
   width: 100%;
   height: 14rem;
   padding: 3rem 2rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
 }
 
 .card:nth-of-type(1) .image {
@@ -101,24 +78,22 @@
 .discipline h1 {
   background-color: #fff;
   color: var(--blue);
-  padding: 2.5rem 1.5rem 0.75rem 1.5rem;
+  padding: 1.5rem 1.5rem 0.75rem 1.5rem;
   font-size: 2rem;
+  line-height: 2.5rem;
+  font-weight: 500;
 }
 
-.discipline h4 {
+.discipline p {
   background-color: #fff;
   color: var(--dark);
-  padding: 0 1.5rem 3rem 1.5rem;
+  padding: 0 1.5rem 1.5rem 1.5rem;
+  line-height: 1.6rem;
 }
 
 /* Footer Section */
 .footer {
-  background-image: linear-gradient(
-    358deg,
-    var(--purple),
-    var(--purple),
-    var(--blue)
-  );
+  background-color: var(--blue);
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -151,64 +126,31 @@
   align-items: center;
   justify-content: center;
   font-size: 1rem;
-  color: var(--white);
+  color: var(--dark);
 }
 
 /* Media queries */
 @media screen and (max-width: 800px) {
-  /* .header {
-    flex-direction: column;
-    justify-content: space-around;
-  }
-
-  .logo img {
-    height: 40vh;
-    width: 0 auto;
-  } */
 
   .cards {
     flex-direction: column;
   }
 
   .card {
-    align-self: none;
+    align-self: center;
     background-color: none;
+    min-width: 85%;
+    max-width: 85%;
   }
 
   .footer {
     flex-direction: column;
   }
 
-  /* .nav ul {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .nav-link {
-    background-color: #8704f3;
-    display: block;
-    width: 90%;
-    margin: 0 auto;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  } */
-
-  .disciplines {
-    padding: 2rem 0 0 0;
-  }
-
-  /* .title,
-  .tagline {
-    padding: 0 2rem;
-  } */
-
   .hero {
-    padding: 1rem 0 0.2rem 0;
-    margin: 2rem 0.66rem;
-    border: 1px solid darkblue;
+    padding: 1rem 0 0rem 0;
+    margin: 0rem 0.66rem;
+    /* border: 1px solid darkblue; */
   }
 
   .herotext {

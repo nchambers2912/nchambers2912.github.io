@@ -57,7 +57,7 @@ function buildCard(title, tagline, image) {
   theTitle.innerHTML = title;
   discipline.appendChild(theTitle);
 
-  var theTagline = document.createElement("h4");
+  var theTagline = document.createElement("p");
   theTagline.classList.add("diciplinetagline");
   theTagline.innerHTML = tagline;
   discipline.appendChild(theTagline);

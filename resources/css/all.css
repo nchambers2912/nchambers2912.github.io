@@ -1,14 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap');
+
 
 /* CSS Variables */
 
 :root {
-  --purple: #6903bf;
-  --blue: #0224bf;
+  --purple: #e4c5fd;
+  --blue: #b6c3fd;
   --white: #eee;
   --lightgray: #efefef;
   --dark: #0c1235;
-  --link: #8704f3;
+  --link: #e4c5fd;
 }
 
 * {
@@ -22,41 +24,6 @@
   overflow: hidden;
   background-color: var(--blue);
   min-width: 275px;
-  max-width: 1024px;
+  /* max-width: 1024px; */
   margin: 0 auto;
 }
-
-/* Media queries */
-/* @media screen and (max-width: 800px) {
-  .header {
-    flex-direction: column;
-    justify-content: space-around;
-  }
-
-  .logo img {
-    height: 40vh;
-    width: 0 auto;
-  }
-
-  .nav ul {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .nav-link {
-    background-color: #8704f3;
-    display: block;
-    width: 90%;
-    margin: 0 auto;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .title,
-  .tagline {
-    padding: 0 2rem;
-  }
-} */
