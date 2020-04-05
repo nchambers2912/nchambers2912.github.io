@@ -1,10 +1,25 @@
 function loadHeaderHtml() {
-  var request = new XMLHttpRequest();
-  request.open("GET", "../../header.html", false);
-  request.send();
-  var html = request.responseText;
+  // var request = new XMLHttpRequest();
+  // request.open("GET", "../../header.html", false);
+  // request.send();
+  // var html = request.responseText;
 
-  document.querySelector(".container").insertAdjacentHTML("afterbegin", html);
+  // document.querySelector(".container").insertAdjacentHTML("afterbegin", html);
+  fetch("../../header.html").then(function (response) {
+    if (response.status !== 200) {
+      console.log(
+        "Looks like there was a problem. Status Code: " + response.status
+      );
+      return;
+    }
+
+    // Examine the text in the response
+    response.text().then(function (data) {
+      document
+        .querySelector(".container")
+        .insertAdjacentHTML("afterbegin", data);
+    });
+  });
 
   addCssLinkForHeader();
 }

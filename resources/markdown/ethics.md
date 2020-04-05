@@ -1,5 +1,3 @@
-# Ethics
-
 Your peace of mind and well-being are important to us which is why we feel that finding the right counsellor who fits your needs and lifestyle is the first step to getting the type of help you want.
 
 Our first point of contact will be over the phone. Together, we will confirm where we will meet, privacy issues and anything else that you feel is important to aid our initial meeting.
