@@ -20,6 +20,7 @@ function insertBefore(el, referenceNode) {
 function buildPage() {
   var content = document.createElement("section");
   content.classList.add("content");
+  content.id = "bookmark";
   var ref = document.querySelector(".footer");
   insertBefore(content, ref);
 

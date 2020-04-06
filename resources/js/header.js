@@ -44,13 +44,13 @@ function buttonPressed(buttonName) {
       window.location.href = "index.html";
       break;
     case "ethics":
-      window.location.href = "ethics.html";
+      window.location.href = "ethics.html#bookmark";
       break;
     case "price":
-      window.location.href = "price.html";
+      window.location.href = "price.html#bookmark";
       break;
     case "contact":
-      window.location.href = "contact.html";
+      window.location.href = "contact.html#bookmark";
       break;
     default:
       break;
