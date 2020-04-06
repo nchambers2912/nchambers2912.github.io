@@ -179,4 +179,8 @@
     padding: 0 2rem;
     font-size: 1.2rem;
   }
+
+  .association {
+    padding: 0 2rem 0 2rem;
+  }
 }
