@@ -101,6 +101,17 @@
   align-items: flex-start;
 }
 
+.association {
+  grid-area: tagline;
+  padding: 0 6rem 0 6rem;
+  color: #5a5959;
+  font-size: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 1rem;
+}
+
 .logo {
   display: flex;
   justify-content: center;
