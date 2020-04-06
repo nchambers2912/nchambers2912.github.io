@@ -121,9 +121,9 @@
 }
 
 .button:hover {
-    /* background-color: #4ab391; */
-    color: var(--lightgray);
-  }
+  /* background-color: #4ab391; */
+  color: var(--lightgray);
+}
 
 .cardDescription {
   color: rgb(126, 123, 123);
@@ -186,7 +186,6 @@
 
 /* Media queries */
 @media screen and (max-width: 964px) {
-
   .herotext {
     margin: 0 1rem;
     padding: 0 0 0.8rem 0;
@@ -201,5 +200,5 @@
   .mainDescription,
   .allergies {
     width: 96%;
-  } */
+  }
 }
