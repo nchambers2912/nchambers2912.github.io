@@ -36,3 +36,23 @@ function addCssLinkForHeader() {
   // Append link element to HTML head
   head.appendChild(link);
 }
+
+function buttonPressed(buttonName) {
+  console.log(buttonName);
+  switch (buttonName) {
+    case "index":
+      window.location.href = "index.html";
+      break;
+    case "ethics":
+      window.location.href = "ethics.html";
+      break;
+    case "price":
+      window.location.href = "price.html";
+      break;
+    case "contact":
+      window.location.href = "contact.html";
+      break;
+    default:
+      break;
+  }
+}

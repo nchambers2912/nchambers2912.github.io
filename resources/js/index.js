@@ -1,5 +1,4 @@
 var cards = document.querySelector(".cards");
-console.log(cards);
 
 window.addEventListener("load", function () {
   loadHeaderHtml();
@@ -12,10 +11,8 @@ function bookNow() {
 
 function addCardSection() {
   var data = getData();
-  this.console.log(data);
   data.forEach((element) => {
     var card = buildCard(element.title, element.description, element.image);
-    this.console.log(card);
     cards.appendChild(card);
   });
 }
