@@ -33,7 +33,7 @@ a:link,
 a:visited,
 a:hover,
 a:active {
-  color: rgb(104, 103, 103);
+  color: var(--buttonText);
   text-decoration: none;
 }
 

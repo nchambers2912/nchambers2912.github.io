@@ -1,15 +1,19 @@
 var cards = document.querySelector(".cards");
 console.log(cards);
 
-window.addEventListener("load", function() {
+window.addEventListener("load", function () {
   loadHeaderHtml();
   addCardSection();
 });
 
+function bookNow() {
+  window.location.href = "contact.html";
+}
+
 function addCardSection() {
   var data = getData();
   this.console.log(data);
-  data.forEach(element => {
+  data.forEach((element) => {
     var card = buildCard(element.title, element.description, element.image);
     this.console.log(card);
     cards.appendChild(card);
@@ -61,6 +65,15 @@ function buildCard(title, tagline, image) {
   theTagline.classList.add("diciplinetagline");
   theTagline.innerHTML = tagline;
   discipline.appendChild(theTagline);
+
+  // var theButton = document.createElement("button");
+  // theButton.classList.add("button");
+  // var buttonText = document.createTextNode("Book now");
+  // theButton.appendChild(buttonText);
+  // discipline.appendChild(theButton);
+  // theButton.addEventListener("click", function () {
+  //   window.location.href = "contact.html";
+  // });
 
   return card;
 }

@@ -18,12 +18,12 @@
 
 /* Discipline Section */
 .disciplines {
-  margin: 1rem auto;
+  /* margin: 1rem auto; */
   padding: 2rem 0rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white ;
+  background-color: white;
 }
 
 .cards {
@@ -42,13 +42,16 @@
   max-width: 300px;
   align-self: stretch;
   background-color: white;
-  box-shadow: 0.2rem 0.2rem 0.5rem var(--lightgray), -0.2rem -0.2rem 0.5rem var(--lightgray);
+  box-shadow: 0.2rem 0.2rem 0.5rem var(--lightgray),
+    -0.2rem -0.2rem 0.5rem var(--lightgray);
   border-radius: 1rem;
   padding-bottom: 1rem;
 }
 
 .discipline {
-  background-color: white);
+  background-color: white;
+  display: flex;
+  flex-direction: column;
 }
 
 .discipline .image {
@@ -129,9 +132,28 @@
   color: var(--dark);
 }
 
+.book {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  background-color: var(--buttonBackground);
+  color: var(--buttonText);
+  padding: 0.4rem 2rem;
+  font-size: 1.8rem;
+  border-radius: 0.8rem;
+  border: solid 1px var(--buttonText);
+  width: 50%;
+  margin: 2rem;
+  align-self: center;
+  justify-self: center;
+  cursor: pointer;
+}
+
 /* Media queries */
 @media screen and (max-width: 800px) {
-
   .cards {
     flex-direction: column;
   }
@@ -158,5 +180,11 @@
     padding: 0 0 0.8rem 0;
     font-size: 1rem;
     line-height: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 964px) {
+  .button {
+    width: 80%;
   }
 }

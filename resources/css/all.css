@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
-@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap');
-
+@import url("https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap");
 
 /* CSS Variables */
 
@@ -11,6 +10,11 @@
   --lightgray: #efefef;
   --dark: #0c1235;
   --link: #e4c5fd;
+  --buttonBackground: #7fd8be;
+  --buttonText: #695958;
+
+  --titleFontSize: 1.6rem;
+  --priceFontSize: 4.4rem;
 }
 
 * {

@@ -1,0 +1,200 @@
+/* Discipline Section */
+.disciplines {
+  margin: 1rem auto;
+  padding: 2rem 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.cards {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: 1024px;
+}
+
+.card {
+  margin: 0rem 0.7rem 2rem 0.7rem;
+  /* border: 0.001rem solid var(--dark); */
+  min-width: 250px;
+  max-width: 300px;
+  align-self: stretch;
+  background-color: white;
+  box-shadow: 0.2rem 0.2rem 0.5rem var(--lightgray),
+    -0.2rem -0.2rem 0.5rem var(--lightgray);
+  border-radius: 1rem;
+  padding-bottom: 1rem;
+}
+
+.discipline {
+  background-color: white;
+}
+
+.discipline .image {
+  background-image: url(../../resources/images/ethics.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 14rem;
+  padding: 3rem 2rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.contentTitle {
+  font-size: 2rem;
+  color: var(--blue);
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+}
+
+.mainDescription,
+.allergies {
+  font-size: 1rem;
+  color: rgb(109, 109, 109);
+  margin: 0 auto;
+  width: 80%;
+}
+
+/* Card Styling */
+.content {
+  background-color: white;
+  padding: 1.4rem;
+}
+
+.number {
+  font-size: var(--titleFontSize);
+  display: inline;
+  color: var(--purple);
+}
+
+.number::after {
+  content: " x ";
+  color: var(--purple);
+}
+
+.length {
+  font-size: var(--titleFontSize);
+  display: inline;
+  color: var(--purple);
+}
+
+.length::after {
+  content: " ";
+  color: var(--purple);
+}
+
+.type {
+  font-size: var(--titleFontSize);
+  display: inline;
+  color: var(--purple);
+}
+
+.cost {
+  font-size: var(--priceFontSize);
+  text-align: center;
+  padding: 2rem;
+  color: rgb(117, 108, 128);
+}
+
+.cost::before {
+  content: "£";
+}
+
+.button {
+  background-color: var(--buttonBackground);
+  color: var(--buttonText);
+  padding: 0.4rem 2rem;
+  font-size: 1.8rem;
+  border-radius: 0.8rem;
+  border: solid 1px var(--buttonText);
+  margin: 0 auto;
+  width: 100%;
+  margin-bottom: 3rem;
+  cursor: pointer;
+}
+
+.cardDescription {
+  color: rgb(126, 123, 123);
+}
+
+/* Footer Section */
+.footer {
+  background-color: var(--blue);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.creditsection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer .logos {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  padding: 1rem;
+  margin: 1px;
+}
+
+.footerlogo img {
+  height: 4rem;
+  width: 0 auto;
+}
+
+.footer .copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  color: var(--dark);
+}
+
+/* Media queries */
+@media screen and (max-width: 964px) {
+  .footer {
+    flex-direction: column;
+  }
+
+  .content {
+    columns: 1;
+    width: 100%;
+  }
+
+  .contentHeader {
+    width: 100%;
+  }
+}
+
+/* Media queries */
+@media screen and (max-width: 964px) {
+
+  .herotext {
+    margin: 0 1rem;
+    padding: 0 0 0.8rem 0;
+    font-size: 1rem;
+    line-height: 1.4rem;
+  }
+
+  .contentTitle {
+    width: 96%;
+  }
+
+  .mainDescription,
+  .allergies {
+    width: 96%;
+  } */
+}
