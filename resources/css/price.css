@@ -120,6 +120,11 @@
   cursor: pointer;
 }
 
+.button:hover {
+    /* background-color: #4ab391; */
+    color: var(--lightgray);
+  }
+
 .cardDescription {
   color: rgb(126, 123, 123);
 }

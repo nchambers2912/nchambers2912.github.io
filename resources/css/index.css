@@ -147,9 +147,14 @@
   border: solid 1px var(--buttonText);
   width: 50%;
   margin: 2rem;
+  margin-top: 3.4rem;
   align-self: center;
   justify-self: center;
   cursor: pointer;
+}
+
+.button:hover {
+  color: var(--lightgray);
 }
 
 /* Media queries */
