@@ -6,7 +6,7 @@ window.addEventListener("load", function () {
 });
 
 function bookNow() {
-  window.location.href = "contact.html";
+  window.location.href = "contact.html#bookmark";
 }
 
 function addCardSection() {
