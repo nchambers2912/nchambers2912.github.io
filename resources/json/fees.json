@@ -4,19 +4,35 @@
   "allergies": "There are two well-behaved dogs on the premises. Please let us know if this may be a problem for you.",
   "prices": [
     {
-      "type": "Session",
+      "type": "Counselling Session",
       "number": 1,
       "time": "50 min",
       "cost": 40.0,
-      "description": "Please note that once a session is booked that this time is exclusively for you. <br><br> It cannot be shared with anyone else or re-used at short notice. It is for this reason that we ask for 48 hours’ notice for any cancellation or re-scheduling of sessions . <br><br> Should you not be able to come to an appointment for any reason please let me know at least 48 hours before the session is due. <br><br> Unattended sessions will be charged at the full rate.",
+      "description": "Please note that once a session is booked that this time is exclusively for you. <br><br> It cannot be shared with anyone else or re-used at short notice. It is for this reason that we ask for 48 hours notice for any cancellation or re-scheduling of sessions . <br><br> Should you not be able to come to an appointment for any reason please let me know at least 48 hours before the session is due. <br><br> Unattended sessions will be charged at the full rate.",
       "image": "resources/images/ethics.jpg"
     },
     {
-      "type": "Admin",
+      "type": "Professional Letter",
       "number": 1,
       "time": "30 min",
       "cost": 30.0,
       "description": "Should you require information to be forwarded to another professional body, your consent will be needed in writing and an admin charge will be payable.",
+      "image": "resources/images/ethics.jpg"
+    },
+    {
+      "type": "Creative Therapy",
+      "number": 1,
+      "time": "50 min",
+      "cost": 75.0,
+      "description": "These sessions are booked via <a href='https://sportfitsupport.co.uk/services/talkfit-counselling'>Sportfit Support Services Ltd</a>. <br><br> Sessions can be booked in blocks or ad-hoc depending on the young person's requirements. <br><br> Weekly therapy can take place in our TalkFit therapy room or at a location of the young person's choosing, placing importance on how the young person would like to communicate. <br><br> The use of tailored, therapeutic environments encourage connection and a feeling of safety. Mediums currently in use are: music, forest walks or even visiting and caring for horses.",
+      "image": "resources/images/ethics.jpg"
+    },
+    {
+      "type": "Employee Assistance",
+      "number": 1,
+      "time": "50 min",
+      "cost": 75.0,
+      "description": "For assurance companies looking for a person centred counsellor offering motivational enhancement therapy.",
       "image": "resources/images/ethics.jpg"
     }
   ]

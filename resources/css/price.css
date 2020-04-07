@@ -168,6 +168,14 @@
   color: var(--dark);
 }
 
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: var(--buttonText);
+  text-decoration: none;
+}
+
 /* Media queries */
 @media screen and (max-width: 964px) {
   .footer {
