@@ -3,6 +3,7 @@
   background-color: var(--purple);
   padding-top: 0.6rem;
   padding-bottom: 0.6rem;
+  display: block;
 }
 
 .nav ul {
@@ -115,6 +116,14 @@
   width: 0 auto;
 }
 
+#icon {
+  display: none;
+  font-size: 2rem;
+  padding: 0.6rem 1rem;
+  color: purple;
+  background-color: #dcb4ff;
+}
+
 /* Media queries */
 @media screen and (max-width: 964px) {
   .header {
@@ -125,6 +134,10 @@
   .logo img {
     height: 40vh;
     width: 0 auto;
+  }
+
+  .nav {
+    display: none;
   }
 
   .nav ul {
@@ -165,5 +178,9 @@
 
   .association {
     padding: 0 2rem 0 2rem;
+  }
+
+  #icon {
+    display: block;
   }
 }

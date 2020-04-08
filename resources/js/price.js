@@ -99,10 +99,10 @@ function buildCard(image, number, type, cost, length, description) {
   content.classList.add("content");
   card.appendChild(content);
 
-  var div = document.createElement("div");
-  div.classList.add("image");
-  div.style.backgroundImage = `url(\\"${image}\\")`;
-  content.appendChild(div);
+  // var div = document.createElement("div");
+  // div.classList.add("image");
+  // div.style.backgroundImage = `url(\\"${image}\\")`;
+  // content.appendChild(div);
 
   var details = document.createElement("div");
   details.classList.add("details");

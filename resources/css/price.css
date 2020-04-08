@@ -35,7 +35,6 @@
 }
 
 .discipline .image {
-  background-image: url(../../resources/images/ethics.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -190,10 +189,7 @@ a:active {
   .contentHeader {
     width: 100%;
   }
-}
 
-/* Media queries */
-@media screen and (max-width: 964px) {
   .herotext {
     margin: 0 1rem;
     padding: 0 0 0.8rem 0;

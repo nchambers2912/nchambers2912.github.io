@@ -1,3 +1,5 @@
+var nav = document.querySelector("#nav");
+
 function loadHeaderHtml() {
   fetch("../../header.html").then(function (response) {
     if (response.status !== 200) {
@@ -38,15 +40,36 @@ function buttonPressed(buttonName) {
       window.location.href = "index.html";
       break;
     case "ethics":
-      window.location.href = "ethics.html#bookmark";
+      window.location.href = "ethics.html";
       break;
     case "price":
-      window.location.href = "price.html#bookmark";
+      window.location.href = "price.html";
       break;
     case "contact":
-      window.location.href = "contact.html#bookmark";
+      window.location.href = "contact.html";
       break;
     default:
       break;
   }
 }
+
+function openMenu() {
+  if (nav.style.display === "none") {
+    nav.style.display = "block";
+  } else {
+    nav.style.display = "none";
+  }
+}
+
+function checkMediaQuery(x) {
+  if (x.matches) {
+    // If media query matches
+    nav.style.display = "none";
+  } else {
+    nav.style.display = "block";
+  }
+}
+
+var x = window.matchMedia("(max-width: 964px)");
+checkMediaQuery(x); // Call listener function at run time
+x.addListener(checkMediaQuery); // Attach listener function on state changes
