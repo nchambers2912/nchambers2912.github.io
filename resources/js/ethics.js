@@ -26,7 +26,3 @@ function getData() {
   //     });
   //   });
 }
-
-window.addEventListener("load", function () {
-  loadHeaderHtml();
-});

@@ -1,7 +1,6 @@
 var cards = document.querySelector(".cards");
 
 window.addEventListener("load", function () {
-  loadHeaderHtml();
   addCardSection();
 });
 

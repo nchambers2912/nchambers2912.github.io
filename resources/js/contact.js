@@ -1,7 +1,3 @@
-window.addEventListener("load", function () {
-  loadHeaderHtml();
-});
-
 var content = document.querySelector(".content");
 
 var converter = new showdown.Converter(),

@@ -3,7 +3,6 @@ var data;
 
 window.addEventListener("load", function () {
   data = getData();
-  loadHeaderHtml();
   buildPage();
   cards = document.querySelector(".cards");
   addCardSection();
