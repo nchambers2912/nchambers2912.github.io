@@ -1,10 +1,4 @@
 function loadHeaderHtml() {
-  // var request = new XMLHttpRequest();
-  // request.open("GET", "../../header.html", false);
-  // request.send();
-  // var html = request.responseText;
-
-  // document.querySelector(".container").insertAdjacentHTML("afterbegin", html);
   fetch("../../header.html").then(function (response) {
     if (response.status !== 200) {
       console.log(

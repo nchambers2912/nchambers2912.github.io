@@ -22,21 +22,6 @@ function getData() {
   request.send();
   var data = JSON.parse(request.responseText);
 
-  // fetch("../../resources/json/types.json").then(function (response) {
-  //   if (response.status !== 200) {
-  //     console.log(
-  //       "Looks like there was a problem. Status Code: " + response.status
-  //     );
-  //     return;
-  //   }
-
-  //   // Examine the text in the response
-  //   response.json().then(function (data) {
-  //     var test = JSON.parse(data);
-  //     return test;
-  //   });
-  // });
-
   return data;
 }
 
@@ -77,15 +62,6 @@ function buildCard(title, tagline, image) {
   theTagline.classList.add("diciplinetagline");
   theTagline.innerHTML = tagline;
   discipline.appendChild(theTagline);
-
-  // var theButton = document.createElement("button");
-  // theButton.classList.add("button");
-  // var buttonText = document.createTextNode("Book now");
-  // theButton.appendChild(buttonText);
-  // discipline.appendChild(theButton);
-  // theButton.addEventListener("click", function () {
-  //   window.location.href = "contact.html";
-  // });
 
   return card;
 }

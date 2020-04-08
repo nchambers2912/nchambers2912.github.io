@@ -11,18 +11,4 @@ function getData() {
   request.send();
   var data = request.responseText;
   return data;
-  //   fetch("../../resources/markdown/ethics.md").then(function (response) {
-  //     if (response.status !== 200) {
-  //       console.log(
-  //         "Looks like there was a problem. Status Code: " + response.status
-  //       );
-  //       return;
-  //     }
-
-  //     // Examine the text in the response
-  //     console.log(response);
-  //     response.text().then(function (data) {
-  //       return data;
-  //     });
-  //   });
 }
